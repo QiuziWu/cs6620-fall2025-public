@@ -1,3 +1,7 @@
+# Version: 1.0.1
+# Built with Github Actions
+# CS6620 Fall 2025 - Week 02
+
 import os
 import re
 import csv
@@ -571,4 +575,4 @@ def auto_load_data():
 if __name__ == '__main__':
     # Auto-load CSV and audio files on startup
     auto_load_data()
-    app.run(debug=True, host='0.0.0.0', port=3000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
